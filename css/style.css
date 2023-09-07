@@ -23,6 +23,11 @@ main{
     margin: 30px auto;
     text-align: center;
 }
+
+.main-title{
+    padding-bottom: 40px;
+}
+
 h1{
     color: #e33179;
     margin-bottom: 30px;
@@ -35,6 +40,7 @@ h1{
     margin:20px;
     text-align: left;
     color: white;
+    box-shadow: -5px 5px 10px #888888
 }
 
 .container img{
@@ -45,8 +51,13 @@ h1{
 
 .text-info{
     line-height: 1.5em;
+    padding-top:10px;
 }
 
 div p{
     font-size: 0.9em;
+}
+
+.text-info > p:last-child{
+    color: #3f98b5;
 }
